@@ -9,10 +9,7 @@ const config = {
       base: '/portfolio'
     },
     prerender: {
-      handleHttpError: ({ path, message }) => {
-        if (path.includes('favicon')) return;
-        throw new Error(message);
-      }
+      handleHttpError: 'warn'
     }
   }
 };
