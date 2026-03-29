@@ -8,7 +8,7 @@ export const t = {
     contacto: "Contacto",
     sobreMiLabel: "// SOBRE MÍ",
     sobreMiTitulo: "¿Qué hago?\nFront-end",
-    sobreMiP1: "Soy un desarrollador Junior especializado en React.",
+    sobreMiP1: "Soy un desarrollador Junior especializado en React y Node.",
     sobreMiP2:
       "Actualmente buscando mi primera experiencia profesional donde pueda seguir creciendo y aportar valor desde el día uno.",
     anios: "años practicando",
@@ -21,7 +21,7 @@ export const t = {
     contactoLabel: "// CONTACTO",
     contactoTitulo: "¿Trabajamos juntos?",
     contactoDesc:
-      "Estoy buscando mi primera experiencia profesional. Si tenés un proyecto interesante o una oportunidad, escribime.",
+      "Buscando mi primera experiencia profecional.",
     hecho: "Hecho con SvelteKit por",
   },
   en: {
@@ -33,7 +33,7 @@ export const t = {
     contacto: "Contact",
     sobreMiLabel: "// ABOUT ME",
     sobreMiTitulo: "What I do?\nFront-end",
-    sobreMiP1: "I'm a Junior developer specialized in React.",
+    sobreMiP1: "I'm a Junior developer specialized in React and Node.",
     sobreMiP2:
       "Currently looking for my first professional experience where I can keep growing and add value from day one.",
     anios: "years practicing",
@@ -46,7 +46,7 @@ export const t = {
     contactoLabel: "// CONTACT",
     contactoTitulo: "Let's work together?",
     contactoDesc:
-      "I'm looking for my first professional experience. If you have an interesting project or opportunity, reach out.",
+      "I'm looking for my first professional experience.",
     hecho: "Built with SvelteKit by",
   },
 };

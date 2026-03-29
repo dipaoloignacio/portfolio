@@ -80,4 +80,14 @@
     color: var(--text-secondary);
     font-family: var(--font-mono);
   }
+
+  @media (max-width: 768px) {
+    .sobre-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .sobre-stats {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 </style>
