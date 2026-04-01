@@ -7,7 +7,7 @@ export const proyectos = [
     },
     tags: ["React", "Socket.IO", "Node.js", "Express"],
     github: "https://github.com/TU_USUARIO/chat-app",
-    demo: "https://chat.aconcaguachat.online/",
+    demo: "https://aconcaguachat.dipaoloproyects.space/",
   },
   {
     titulo: { es: "E-commerce", en: "E-commerce" },
@@ -57,7 +57,15 @@ export const proyectos = [
     },
     tags: ["React", "Bun", "WebSockets", "TypeScript"],
     github: "https://github.com/dipaoloignacio/political-parties-frontend",
-    demo: "https://political-parties-frontend.vercel.app/",
+    demo: "https://parties.dipaoloproyects.space//",
   },
-
+  {
+    titulo: { es: "Live-map", en: "Live-map" },
+    descripcion: {
+      es: "Aplicación de mapas colaborativa en tiempo real. Múltiples usuarios pueden verse entre sí en el mapa y moverse simultáneamente. Construida con React, TypeScript, Mapbox GL, WebSockets nativos y Bun en el backend.",
+    },
+    tags: ["React", "Bun", "WebSockets", "TypeScript"],
+    github: "https://github.com/dipaoloignacio/ws-mapbox-frontend",
+    demo: "https://ws-mapbox.dipaoloproyects.space/",
+  },
 ];
