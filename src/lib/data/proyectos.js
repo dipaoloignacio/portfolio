@@ -1,5 +1,24 @@
 export const proyectos = [
   {
+    titulo: { es: "ChatUp App", en: "ChatUp App" },
+    descripcion: {
+      es: "Chat en tiempo real con mensajes directos, grupos, autenticación JWT y notificaciones de sonido.",
+      en: "Real-time chat with direct messages, groups, JWT authentication and sound notifications.",
+    },
+    tags: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Bun",
+      "WebSockets",
+      "Express",
+      "PostgreSQL",
+      "Claude API",
+    ],
+    github: "https://github.com/dipaoloignacio/chat-Up-frontend",
+    demo: "https://chatup.dipaoloproyects.space/",
+  },
+  {
     titulo: { es: "Chat App", en: "Chat App" },
     descripcion: {
       es: "Aplicación de chat en tiempo real con rooms, autenticación y mensajes persistentes.",
@@ -10,16 +29,6 @@ export const proyectos = [
     demo: "https://aconcaguachat.dipaoloproyects.space/",
   },
   {
-    titulo: { es: "E-commerce", en: "E-commerce" },
-    descripcion: {
-      es: "E-commerce de librería desarrollado con React. Permite explorar el catálogo de libros, ver el detalle de cada producto y gestionar el carrito de compras.",
-      en: "Bookstore e-commerce built with React. Users can browse the catalog, view product details and manage their shopping cart.",
-    },
-    tags: ["React", "Sass", "React Router", "Firebase"],
-    github: "https://github.com/dipaoloignacio/tienda-Ignacio-Di-Paolo",
-    demo: "https://legendary-blini-1434ae.netlify.app/?",
-  },
-  {
     titulo: { es: "Fundacion Liliana Bodoc", en: "Liliana Bodoc Foundation" },
     descripcion: {
       es: "Sitio web institucional para la Fundación Liliana Bodoc. Incluye secciones de eventos, noticias y contacto.",
@@ -28,6 +37,16 @@ export const proyectos = [
     tags: ["React", "Sass"],
     github: "https://github.com/dipaoloignacio/liliana-bodoc",
     demo: "https://fundacionlilianabodoc.org.ar/",
+  },
+  {
+    titulo: { es: "E-commerce", en: "E-commerce" },
+    descripcion: {
+      es: "E-commerce de librería desarrollado con React. Permite explorar el catálogo de libros, ver el detalle de cada producto y gestionar el carrito de compras.",
+      en: "Bookstore e-commerce built with React. Users can browse the catalog, view product details and manage their shopping cart.",
+    },
+    tags: ["React", "Sass", "React Router", "Firebase"],
+    github: "https://github.com/dipaoloignacio/tienda-Ignacio-Di-Paolo",
+    demo: "https://legendary-blini-1434ae.netlify.app/?",
   },
   {
     titulo: { es: "Compañía El alma en un hilo", en: "El alma en un hilo" },
