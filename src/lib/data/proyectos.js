@@ -19,16 +19,6 @@ export const proyectos = [
     demo: "https://chatup.dipaoloproyects.space/",
   },
   {
-    titulo: { es: "Chat App", en: "Chat App" },
-    descripcion: {
-      es: "Aplicación de chat en tiempo real con rooms, autenticación y mensajes persistentes.",
-      en: "Real-time chat application with rooms, authentication and persistent messages.",
-    },
-    tags: ["React", "Socket.IO", "Node.js", "Express"],
-    github: "https://github.com/TU_USUARIO/chat-app",
-    demo: "https://aconcaguachat.dipaoloproyects.space/",
-  },
-  {
     titulo: { es: "Fundacion Liliana Bodoc", en: "Liliana Bodoc Foundation" },
     descripcion: {
       es: "Sitio web institucional para la Fundación Liliana Bodoc. Incluye secciones de eventos, noticias y contacto.",
